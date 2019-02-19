@@ -40,3 +40,145 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.quotebox {
+	background-color: #424242;
+    border-radius: 2px;
+    color: #eaeaea;
+    font-size: .85rem;
+	padding: 20px;
+	width: 261px;
+	line-height: 1.4px;
+	margin: auto;
+	text-align: center;
+	vertical-align: center;
+}
+
+.quotearrow {
+	width: 0;
+	height: 0;
+	margin-left: 765px;
+	margin-bottom: 5px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 6px solid #424242;
+}
+
+section {
+	background-color: transparent;
+	border-color: #777; 
+	border-width: 1px;
+	border-style: solid;
+    width: 261px;
+    padding-top: -5px;
+    height: 205px;
+    margin: auto;
+	position: relative;
+	margin-top: -2px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+	font-size: .8rem;
+    box-shadow: 0px 2px #eaeaea;
+}
+
+.tagline {
+	color: #EF5F3C;
+	font-weight: bolder;
+}
+
+.firstpara {
+	padding: 15px 0px 0px 15px;
+
+}
+
+.timebar1 {
+	border-color: #777;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	background-color: #EF5F3C;
+	width: 259px;
+	height: 11px;
+	margin-right: 2px;
+	/* position: relative; */
+}
+
+.timebar2 {
+	border-color: #777;
+	border-width: 0px 0px 1px 0px;  
+	border-style: solid;
+	background-color: #eaeaea;
+	width: 65.75px;
+	height: 11px;
+	position: relative;
+	float: right;
+}
+
+.donortotal {
+	background-color: transparent;
+	border-color: #777;
+	border-width: 1px;  
+	border-style: solid;
+	border-radius: 2px;
+    width: 107px;
+	line-height: 40px;
+	margin: 10px 0px 0px 15px;
+	padding-left: 6px;
+    bottom: 80px;
+    left: 20px;
+	float: left;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.givenowbutton {
+	background-color: #1CBC2C;
+	color: white;
+	text-align: center;
+	border-radius: 2px;
+    width: 107px;
+	line-height: 42px;
+	margin: 10px 15px 0px 0px;
+    bottom: 20px;
+    left: 20px;
+	float: right;
+	font-size: 1.25em;
+}
+
+.secondpara {
+	float: left;
+	margin: -25px 0px 0px 15px;
+	font-size: .75rem;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.button1 {
+	width: 123px;
+	height: 30px;
+	border-color: #777;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	background-color: #eaeaea;
+	margin: 52px 0px 46px -89px;
+	font-size: .7rem;
+	font-weight: bold;
+	color: #424242;
+	float: left;
+	box-shadow: 0px 1px  #777;
+}
+
+.button2 {
+	width: 123px;
+	height: 30px;
+	border-color: #777; 
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	background-color: #eaeaea;
+	margin: 52px -1px 0px;
+	font-size: .7rem;
+	font-weight: bold;
+	color: #424242;
+	float: right;
+	box-shadow: 0px 1px  #777;
+}
