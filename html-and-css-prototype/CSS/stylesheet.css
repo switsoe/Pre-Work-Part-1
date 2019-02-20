@@ -6,8 +6,10 @@
 }
 
 body {
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	color: #424242;
+	/* font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; 
+	****************changed font as suggested is not a free font*/
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #989898;
 	line-height: 1.4;
 }
 
@@ -44,7 +46,7 @@ h1 {
 .quotebox {
 	background-color: #424242;
     border-radius: 2px;
-    color: #eaeaea;
+    color: #F5F4F4;
     font-size: .85rem;
 	padding: 20px;
 	width: 261px;
@@ -66,7 +68,7 @@ h1 {
 
 section {
 	background-color: transparent;
-	border-color: #777; 
+	border-color: #E1E1E1; 
 	border-width: 1px;
 	border-style: solid;
     width: 261px;
@@ -75,13 +77,12 @@ section {
     margin: auto;
 	position: relative;
 	margin-top: -2px;
-	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 	font-size: .8rem;
-    box-shadow: 0px 2px #eaeaea;
+    box-shadow: 0px 2px #F5F4F4;
 }
 
 .tagline {
-	color: #EF5F3C;
+	color: #F15E33;
 	font-weight: bolder;
 }
 
@@ -91,10 +92,10 @@ section {
 }
 
 .timebar1 {
-	border-color: #777;
+	border-color: #E1E1E1;
 	border-width: 0px 0px 1px 0px;
 	border-style: solid;
-	background-color: #EF5F3C;
+	background-color: #F15E33;
 	width: 259px;
 	height: 11px;
 	margin-right: 2px;
@@ -102,10 +103,10 @@ section {
 }
 
 .timebar2 {
-	border-color: #777;
+	border-color: #E1E1E1;
 	border-width: 0px 0px 1px 0px;  
 	border-style: solid;
-	background-color: #eaeaea;
+	background-color: #F5F4F4;
 	width: 65.75px;
 	height: 11px;
 	position: relative;
@@ -114,7 +115,7 @@ section {
 
 .donortotal {
 	background-color: transparent;
-	border-color: #777;
+	border-color: #E1E1E1;
 	border-width: 1px;  
 	border-style: solid;
 	border-radius: 2px;
@@ -130,7 +131,7 @@ section {
 }
 
 .givenowbutton {
-	background-color: #1CBC2C;
+	background-color: #00BE1C;
 	color: white;
 	text-align: center;
 	border-radius: 2px;
@@ -153,32 +154,32 @@ section {
 
 .button1 {
 	width: 123px;
-	height: 30px;
-	border-color: #777;
+	height: 34px;
+	border-color: #E1E1E1;
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 2px;
-	background-color: #eaeaea;
+	background-color: #F5F4F4;
 	margin: 52px 0px 46px -89px;
 	font-size: .7rem;
 	font-weight: bold;
-	color: #424242;
+	color: #707070;
 	float: left;
-	box-shadow: 0px 1px  #777;
+	box-shadow: 0px 1px  #E1E1E1;
 }
 
 .button2 {
 	width: 123px;
-	height: 30px;
-	border-color: #777; 
+	height: 34px;
+	border-color: #E1E1E1; 
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 2px;
-	background-color: #eaeaea;
+	background-color: #F5F4F4;
 	margin: 52px -1px 0px;
 	font-size: .7rem;
 	font-weight: bold;
-	color: #424242;
+	color: #707070;
 	float: right;
-	box-shadow: 0px 1px  #777;
+	box-shadow: 0px 1px  #E1E1E1;
 }
